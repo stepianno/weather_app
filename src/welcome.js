@@ -588,7 +588,7 @@ class Welcome extends React.Component {
 
     getCoords() {
         const link = 'https://maps.googleapis.com/maps/api/geocode/json?address='
-        const key = '&key=AIzaSyC1r33zLjh-NZvR0VZUrMji-rGhmbv1QLo'
+        const key = '<my Google API key>'
         const url = link + this.state.zip + key
         let obj;
         this.setState({coords: true})
@@ -614,7 +614,7 @@ class Welcome extends React.Component {
         const lon = `${this.state.lon}`
         const url2 = '&lon='
         const url3 = '&exclude=minutely&appid='
-        const api_key = '84d74615c394fe4fe2f76783d5481c29'
+        const api_key = '<my Open Weather Map key>'
         const url = url1 + lat + url2 + lon + url3 + api_key
         let obj;
         this.setState({taken: true})
