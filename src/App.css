@@ -1,0 +1,62 @@
+body {
+  font: 14px "Lucida Handwriting", Cursive, sans-serif;
+  margin: 40px;
+  background-image: url('https://media-exp1.licdn.com/dms/image/C511BAQE0NnIkjkotGA/company-background_10000/0/1541489744017?e=2159024400&v=beta&t=8CzJngJh5TrtF6_WFRYSlDeycAkT52hAfb4qLYGYnv8');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+ol, ul {
+  padding-left: 30px;
+}
+
+svg {
+  display: block;
+  margin: auto;
+}
+
+td {
+  text-align: center;
+  font-size: 20px;
+}
+
+caption {
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+h1 {
+  margin-top: 25px;
+  margin-left: 15px;
+  display: inline-block;
+  font-size: 60px;
+  padding-right: 20px;
+}
+button {
+  padding: 5px;
+  background-color: transparent;
+  border: 1px solid;
+  border-radius: 10px;
+  font-size: 15px;
+  font-family: "Lucida Handwriting", Cursive, sans-serif;
+}
+
+table {
+  position: relative;
+  right: 15%;
+  float: right;
+  border: 1px solid;
+}
+
+.axis {
+  font-size: 15px;
+  font-family: "Lucida Handwriting", Cursive, sans-serif;
+}
+.temp-change{
+  position: absolute;
+  right: 1%;
+}
+.graph-change{
+  margin-left: 15%;
+}
